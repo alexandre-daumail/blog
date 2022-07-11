@@ -1,0 +1,26 @@
+<br /><b>Warning</b>:  Trying to access array offset on value of type bool in <b>/Applications/MAMP/htdocs/blog2.0/profil.php</b> on line <b>80</b><br />
+
+<br /><b>Warning</b>:  Trying to access array offset on value of type bool in <b>/Applications/MAMP/htdocs/blog2.0/profil.php</b> on line <b>73</b><br />
+<br /><b>War ning</b>:  Trying to access array offset on value of type bool in <b>/Applications/MAMP/htdocs/blog2.0/profil.php</b> on line <b>73</b><br />
+
+
+
+Exception reçue : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Bienvenue val
+
+<?php
+
+    $info = new User();
+    $res1 = $info->getAllInfoForUser($_SESSION['id']);
+
+    $droits = new Droits();
+    $res2 = $droits->getDroitsById($res1['id_droits']);
+
+    ?>
+
+    <br /><b>Warning</b>:  Trying to access array offset on value of type bool in <b>/Applications/MAMP/htdocs/blog2.0/profil.php</b> on line <b>79</b><br />
+
+
+    Exception reçue : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+Bienvenue test
+

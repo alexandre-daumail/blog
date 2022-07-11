@@ -1,0 +1,116 @@
+main {
+  background-image: url(https://kreativedecks.com/wp-content/uploads/2021/01/1200x630_100_300_000000x30x0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.gestion-user{
+  padding: 15px;
+  margin: 20px;
+  height: fit-content;
+  width: fit-content;
+  /* border-radius: 20px; */
+  box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%);
+  background-color: #3181c5bf;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.gestion-article{
+  padding: 15px;
+  margin: 20px;
+  height: fit-content;
+  width: fit-content;
+  /* border-radius: 20px; */
+  box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%);
+  background-color: #3181c5bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gestion-cat{
+  padding: 15px;
+  margin: 20px;
+  height: fit-content;
+  width: fit-content;
+  /* border-radius: 20px; */
+  box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%);
+  background-color: #3181c5bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gestion-com{
+  padding: 15px;
+  margin: 20px;
+  height: fit-content;
+  width: fit-content;
+  /* border-radius: 20px; */
+  box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%);
+  background-color: #3181c5bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  text-align: left;
+  margin: 10px;
+}
+table {
+  
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+table,
+td {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+th {
+  padding: 5px;
+  color: white;
+}
+
+button{
+  padding: 5px;
+}
+select{
+  padding: 5px;
+}
+
+.new-categ{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-categ > label , .new-categ > input, .new-categ > button {
+  padding: 5px;
+  margin: 5px;
+}

@@ -1,0 +1,165 @@
+main {
+  background-image: url(https://kreativedecks.com/wp-content/uploads/2021/01/1200x630_100_300_000000x30x0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.update-profil {
+  display: flex;
+  justify-content: center;
+}
+
+.update-profil > .form-update-profil > h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  margin: 10px;
+}
+
+.form-update-profil {
+  padding: 15px;
+  margin: 20px;
+  height: fit-content;
+  width: fit-content;
+  /* box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%); */
+  background-color: #3181c5bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+
+.form-update-profil-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form-update-profil-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form-update-profil-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form-update-profil-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form-update-profil-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.form-update-profil-6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.update-profil > .form-update-profil > .form-update-profil-5 > input #submit {
+  margin: 20px;
+}
+
+input {
+  /* border-radius: 20px; */
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  margin: 10px;
+}
+
+.update-profil > .form-update-profil > h2 {
+  text-align: center;
+}
+
+.update-profil > .form-update-profil > form > label {
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .form-update-profil {
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #3181c5bf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .form-update-profil-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .form-update-profil-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .form-update-profil-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .form-update-profil-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .form-update-profil-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .form-update-profil-6 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .update-profil {
+    display: flex;
+    justify-content: center;
+  }
+}

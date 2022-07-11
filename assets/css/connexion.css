@@ -1,0 +1,87 @@
+/*Module Connexion*/
+
+main {
+  background-image: url(https://kreativedecks.com/wp-content/uploads/2021/01/1200x630_100_300_000000x30x0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  z-index: -2;
+}
+.error1 {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.form-connexion {
+  padding: 30px;
+  height: fit-content;
+  width: fit-content;
+  /* border-radius: 20px; */
+  /* box-shadow: 16px -14px 5px 0px rgb(76 76 84 / 20%); */
+  background-color: #3181c5bf;
+  z-index: 0;
+}
+
+#form-connexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  margin: 10px;
+}
+
+input {
+  margin: 20px;
+  /* border-radius: 20px; */
+  font-size: inherit;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  padding: 0.5rem 0.8rem;
+}
+
+.first > .form-connexion > #form-connexion > a {
+  text-align: center;
+}
+
+#pas-inscrit {
+  margin: 20px;
+}
+
+.first > .form-connexion > h2 {
+  text-align: center;
+}
+
+.first > .form-connexion > form > label {
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  #form-connexion {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    z-index: 0;
+  }
+}
